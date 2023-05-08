@@ -1,0 +1,44 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  max-width: fit-content;
+  margin-right: 15%;
+}
+
+a {
+  background-color: #706767;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+a:hover {
+  background-color: #a8a8a8;
+  color: #333;
+}
+
+.header-container > nav {
+  width: 100%;
+  max-width: 20rem;
+}
+
+.header-container > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.active {
+  background-color: beige;
+  color: #333;
+}

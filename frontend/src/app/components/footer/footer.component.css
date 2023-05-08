@@ -1,0 +1,11 @@
+a {
+  color: #1f3ef1;
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
